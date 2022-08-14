@@ -70,6 +70,34 @@
 6. Git sangat cepat, ringan dan baik dalam me-manage projext dengan ukuran besar.
 
 # Pengenalan Git
-1. Jadi, Git
+1. Jadi, Git adalah salah satu DVCs yang ada.
+2. Git tidak membutuhkan server untuk melakukan perubahan atau melihat riwayat revisi, hal ini dikarenakan dalam Git, semua riwayat project akan selalu di duplikat, baik itu di server ataupun di local komputer.
+3. Artinya sebenarnya Git juga bisa digunakan sebagai Local Version Control.
+4. Setiap perubahan yang terjadi di Git akan selalu dibuat signature (tanda) nya menggunakan algoritma hashing SHA-1. Hal ini menjadikan perubahan sekecil apapun pasti bisa dideteksi oleh git.
+5. Semua hal yang terjadi di git secara otomatis akan di catat, hal ini menjadikan perubahan apapun di Git, pasti selalu bisa dikembalikan ke versi sebelumnya.
+
+# Memastikan Git Berjalan
+1. Git merupakan aplikasi berbasis terminal/command line, oleh karena itu, untuk menggunakan Git, kita perlu membuat terminal/command line.
+2. Untuk mengecek versi Git yang terinstall di local komputer kita, kita bisa gunakan perintah: git --version
+
+# Repository
+1. Repository merupakan sebutan project di Git.
+2. Kita bisa membuat folder kosong atau folder yang sudah berisi file, lalu membuatnya sebagai Git Repository.
+3. Atau kita bisa melakukan clone Git Repository yang sudah ada dari Server Git.
+
+## Kode : Git Init (Gambar)
+
+## Praktek (gambar)
+
+## Kode : Git Status (Gambar)
+
+## Praktek (gambar)
+
+# The Three States
+1. Harap diperhatikan, ini adalah hal utama yang wjib dimengerti di Git agar selanjutannya bisa mengerti dengan baik.
+2. Git memiliki tiga state terhadap file kita: modified, staged, dan committed.
+3. Modified artinya kita mengubah(menambah, mengedit, menghapus) file, namun belum disimpan secara permanen ke repository.
+4. Staged artinya kita menandai modifikasi yang kita lakukan terhadap file akan disimpan secara permanen ke repository.
+5. Committed artinya data sudah aman disimpan di repository.
 
 
