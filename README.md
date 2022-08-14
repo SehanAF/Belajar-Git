@@ -109,5 +109,17 @@
 ## Diagram Three Tree (Gambar)
 
 # Workflow
+1. Sekarang kita sudah tahu tentang arsitektur Three Tree, sekarang pertanyaannya, bagaimana alur kerja menggunakan Git.
+2. Secara sederhaa, setiap perubahan akan kita lakukan di working directory.
+3. Jikka ada yang mau kita siapkan untuk disimpan secara permanen, kita akan bawa perubahan tersebut ke staging index.
+4. Selanjutnya, kita bisa melakukan penyimpanan versi baru secara permanen ke repository.
+
+# Snapshot
+1. Pada materi sebelumnya kita selalu menyebutkan versi pada perubahan file.
+2. Sebenarnya perubahan yang dilakukan bisa jadi dilakukan secara bersaman untuk beberapa file, hal ini berarti sebenarnya tidak ada yang namanya versi file, hal ini berarti sebenarnya tidak ada yang namanya versi file.
+3. Semua perubahan yang terjadi akan diremakn, dan kita sebut namanya adalah snapshot.
+4. Snapshot berisikan semua perubahan yang terjadi disemua file yang kita commit.
+5. Setiap snapshot akan menghasilkan has.
+6. 
 
 
