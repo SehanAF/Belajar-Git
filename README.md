@@ -100,4 +100,14 @@
 4. Staged artinya kita menandai modifikasi yang kita lakukan terhadap file akan disimpan secara permanen ke repository.
 5. Committed artinya data sudah aman disimpan di repository.
 
+# Three Selection
+1. Tiga state sebelumnya di dalam Git dilakukan di section yang berbeda-beda, yaitu Working Directory, Staging Area dan Repository.
+2. Saat kita melakukan modifikasi file, itu dilakukan di working directory.
+3. Staging Area merupakan section dimana file sudah disiapkan untuk disimpan secara permanen, di Staging Area semua informasi perubahan file akan disimpan.
+4. Repository merupakan tempat dimana semua file dan database riwayat  versi file disimpan.
+
+## Diagram Three Tree (Gambar)
+
+# Workflow
+
 
