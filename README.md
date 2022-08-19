@@ -120,6 +120,8 @@
 3. Semua perubahan yang terjadi akan diremakn, dan kita sebut namanya adalah snapshot.
 4. Snapshot berisikan semua perubahan yang terjadi disemua file yang kita commit.
 5. Setiap snapshot akan menghasilkan has.
-6. 
+
+# Hash
+
 
 
