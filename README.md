@@ -122,6 +122,11 @@
 5. Setiap snapshot akan menghasilkan has.
 
 # Hash
+1. Setiap snapshot yang kita lakukan, semua akan menghasilkan hash sebagai identitas snapshot nya.
+2. Has meruapakan checksum untuk menghitung perubahan yang terjadi.
+3. Giti menggunakan algoritma SHA-1 untuk menghitung hash.
+4. Hash dibutuhkan untyj menjaga data integrity, sehingga tidak tiap snapshot yang sudah kita lakukan tidak bisa diubah, hal ini karena akan secara otomatis merusak hash yang sudah dibuat.
+5. Contoh hash Git :12321832jkj41k0dda9sd2n198821fdafao
 
 
 
